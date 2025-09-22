@@ -23,7 +23,7 @@ public class Exercise02 {
 		
 		b = a+1;
 		
-		//Print a message with the previous answer
+		//Print a message with the previous number + 1
 		System.out.println("Your age next year will be "+ b);
 		
         //Close the scanner
