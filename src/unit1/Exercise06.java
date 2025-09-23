@@ -15,7 +15,7 @@ public class Exercise06 {
 		//first number + second number
 		double suma;
 		
-		//first number -  second numbe
+		//first number -  second number
 		double resta;
 		
 		//first number * second number
@@ -52,7 +52,7 @@ public class Exercise06 {
 		System.out.println("Your first number + your second number is: "+ suma);
 		System.out.println("Your first number - your second number is: "+ resta);
 		System.out.println("Your first number * your second number is: "+ multiplicacion);
-		System.out.println("Your first number /your second number is: "+ division);
+		System.out.println("Your first number / your second number is: "+ division);
 		
 		//close scanner
 		reader.close();
