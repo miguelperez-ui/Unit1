@@ -10,6 +10,7 @@ public class Exercise03 {
 		
 				int year;
 				int born;
+				int a;
 
 				//Ask the user a number
 				System.out.print("Which year is it?");
@@ -20,11 +21,14 @@ public class Exercise03 {
 				//Ask the user a number
 				System.out.print("Now, in which year you were borned?");
 				
+				//The console waits for an answer
+				born = reader.nextInt();
 				
+				a= year - born;
+						
+				//Print a message with the year it is minus the year you have borned
+				System.out.println("Your age is "+ a);
 				
-				
-				//Print a message with the previous number + 1
-				System.out.println("");
 				
 				//The console waits for an answer
 				born = reader.nextInt();
