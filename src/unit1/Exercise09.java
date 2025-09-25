@@ -2,25 +2,18 @@ package unit1;
 
 import java.util.Scanner;
 
-public class Exercise08 {
+public class Exercise09 {
 
 public static void main(String[] args) {
-		
-		//name
-		String name;
 		
 		//age
 		int age;
 		
+		//adult
+		boolean adult;
 		
 		//new scanner
 		Scanner reader= new Scanner(System.in);
-		
-		//the console asks your name
-		System.out.println("Introduce your name");
-		
-		//reading the name
-		name = reader.nextLine();
 		
 		//the console asks your age
 		System.out.println("Introduce your age");
@@ -28,9 +21,12 @@ public static void main(String[] args) {
 		//reading the number
 		age = reader.nextInt();
 		
+		//equation of the boolean
+		adult = age >= 18;
+		
 		
 		//final message
-		System.out.println("Hola "+ name + ", tienes "+ age + " años, ¡qué mayor eres!." );
+		System.out.println("Are you an adult? " + adult );
 		
 		//close scanner
 		reader.close();
