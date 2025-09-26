@@ -5,29 +5,29 @@ import java.util.Scanner;
 public class Exercise10 {
 
 	public static void main(String[] args) {
-		
-		//número
+
+		// número
 		int numero;
-		
-		//número par
+
+		// número par
 		boolean esPar;
-		
-		//nuevo scanner
-		Scanner reader= new Scanner(System.in);
-		
-		//introducir un número
+
+		// nuevo scanner
+		Scanner reader = new Scanner(System.in);
+
+		// introducir un número
 		System.out.println("Introduce un número");
-		
-		//leer número
+
+		// leer número
 		numero = reader.nextInt();
-		
-		//condición para que sea par
-		esPar= numero %2 == 0;
-		
-		//mensaje final
+
+		// condición para que sea par
+		esPar = numero % 2 == 0;
+
+		// mensaje final
 		System.out.println("¿El número es par? " + esPar);
-		
-		//cerrar scanner
+
+		// cerrar scanner
 		reader.close();
 
 	}
