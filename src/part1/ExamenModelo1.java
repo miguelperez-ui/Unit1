@@ -1,52 +1,51 @@
-package unit1;
+package part1;
 
 import java.util.Scanner;
 
 public class ExamenModelo1 {
 
 	public static void main(String[] args) {
-		
-		//nuevo scanner
+
+		// nuevo scanner
 		Scanner reader = new Scanner(System.in);
-		
-		//primer número
+
+		// primer número
 		int primero;
-		
-		//segundo número
+
+		// segundo número
 		int segundo;
-		
-		//tercer número
+
+		// tercer número
 		int tercero;
-		
-		//media de los tres números
+
+		// media de los tres números
 		double media;
-		
-		//mensaje por consola
+
+		// mensaje por consola
 		System.out.println("dime el primer número");
-		
-		//leer mensaje
+
+		// leer mensaje
 		primero = reader.nextInt();
-		
-		//mensaje por consola
+
+		// mensaje por consola
 		System.out.println("dime el segundo número");
-		
-		//leer mensaje
+
+		// leer mensaje
 		segundo = reader.nextInt();
-		
-		//mensaje por consola
+
+		// mensaje por consola
 		System.out.println("dime el tercer número");
-		
-		//leer mensaje
+
+		// leer mensaje
 		tercero = reader.nextInt();
-		
-		//ecuación para hacer la media
-		media = (primero + segundo + tercero)/ 3.0;
-		
-		//mensaje final
+
+		// ecuación para hacer la media
+		media = (primero + segundo + tercero) / 3.0;
+
+		// mensaje final
 		System.out.println("La media es: " + media);
-		
-		
-		//cerra scanner
+
+		// cerra scanner
 		reader.close();
 
 	}
