@@ -1,4 +1,4 @@
-package englishPart2;
+package englishpart2;
 
 import java.util.Scanner;
 
@@ -6,37 +6,33 @@ public class Exercise01 {
 
 	public static void main(String[] args) {
 
-		// new scanner
+		// New scanner
 		Scanner reader = new Scanner(System.in);
 
-		// price
+		// Price
 		double price;
 
-		// tax
+		// Tax
 		double tax;
 
-		// print tittle
+		// Print tittle
 		System.out.println("TAX CALCULATOR");
 
-		// print message
+		// Ask the price value
 		System.out.println("Introduce the price:");
-
-		// read answer
 		price = reader.nextDouble();
 
-		// print message
+		// Ask the tax value
 		System.out.println("Introduce the tax:");
-
-		// read answer
 		tax = reader.nextDouble();
 
-		// ecuation
+		// Calculate the price with the tax included
 		price = price * (1 + tax / 100);
 
-		// final message
+		// Final message
 		System.out.println("The price with tax is " + price);
 
-		// close scanner
+		// Close scanner
 		reader.close();
 
 	}

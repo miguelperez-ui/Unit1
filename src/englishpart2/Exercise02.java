@@ -1,4 +1,4 @@
-package englishPart2;
+package englishpart2;
 
 import java.util.Scanner;
 
@@ -6,28 +6,26 @@ public class Exercise02 {
 
 	public static void main(String[] args) {
 
-		// Create new scanner
+		// New scanner
 		Scanner reader = new Scanner(System.in);
 
-		// your age
+		// Your age
 		int age;
 
-		// year
+		// Year
 		int year;
 
-		// print message
+		// Print message
 		System.out.println("Introduce the age");
-
-		// read answer
 		age = reader.nextInt();
 
-		// ecuation for the birth year
+		// Calculate the birth year
 		year = (2025 - age);
 
-		// final message
-		System.out.println("Your bith date is: " + year);
+		// Final message
+		System.out.println("Your bith year is: " + year);
 
-		// close scanner
+		// Close scanner
 		reader.close();
 
 	}
